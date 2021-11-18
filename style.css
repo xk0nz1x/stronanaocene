@@ -1,0 +1,70 @@
+body{background-image:url(tlo.jpg);
+}
+#menu{ 
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+	position:fixed;
+	left:10%;
+	top:20%;
+}
+#menu li{
+	background-color:red;
+	float:left;
+	display: block;
+	cursor:pointer;
+	width:13vw;
+	height: 40px;
+	color:black;
+	cursor:url(image18.png), auto;
+	border-radius:20%; 
+}
+#menu li li{
+	float:none;
+}
+#menu li li a{
+	text-decoration:none;
+	color:black;
+}
+#menu li ul{
+	display:none;
+	position:absolute;
+	padding:0px;
+}
+
+#menu li:hover ul{
+	display:block;
+	color: yellow;
+}
+#menu li li:hover{
+	background-color:#BCE27F;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	text-decoration:none;
+	color:yellow;
+	font-weight:bold;
+	cursor:url(image18.png), auto;
+	font-size:0.8vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
